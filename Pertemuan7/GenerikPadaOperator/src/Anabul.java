@@ -1,3 +1,9 @@
+/* Nama File : Anabul.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat kelas Anabul yang memiliki atribut nama dan metode untuk menampilkan nama tersebut, serta menguji kelas ini dengan membuat objek Anabul dan menampilkan namanya.
