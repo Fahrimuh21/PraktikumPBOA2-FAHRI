@@ -1,9 +1,3 @@
-/* Nama File : Piaraan.java
- * Deskripsi : 
- * Pembuat   : Muhammad Fahri
- * Tanggal   : 17 Mei 2026
- */
-
 import java.util.LinkedList;
 import java.util.Queue;
 

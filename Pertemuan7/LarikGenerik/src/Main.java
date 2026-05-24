@@ -1,9 +1,3 @@
-/* Nama File : Main.java
- * Deskripsi : 
- * Pembuat   : Muhammad Fahri
- * Tanggal   : 17 Mei 2026
- */
-
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat dan belajar tentang konversi tipe data dan parsing

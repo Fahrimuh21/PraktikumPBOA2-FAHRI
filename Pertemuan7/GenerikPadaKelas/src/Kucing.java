@@ -1,9 +1,3 @@
-/* Nama File : Kucing.java
- * Deskripsi : 
- * Pembuat   : Muhammad Fahri
- * Tanggal   : 17 Mei 2026
- */
-
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat kelas Kucing dengan atribut nama dan bobot, serta metode untuk menampilkan informasi kucing.

@@ -1,9 +1,3 @@
-/* Nama File : OperatorGenerik.java
- * Deskripsi : 
- * Pembuat   : Muhammad Fahri
- * Tanggal   : 17 Mei 2026
- */
-
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat kelas OperatorGenerik yang memiliki metode generik untuk menukar elemen dalam array dan menghitung bobot total dari dua objek Kucing, serta menguji metode ini dengan berbagai tipe data dan objek Kucing.

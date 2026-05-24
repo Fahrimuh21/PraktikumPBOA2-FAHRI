@@ -1,9 +1,3 @@
-/* Nama File : Data.java
- * Deskripsi : 
- * Pembuat   : Muhammad Fahri
- * Tanggal   : 17 Mei 2026
- */
-
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : membuat kelas Data yang merupakan kelas generik untuk menyimpan dan mengelola data dalam bentuk larik. Kelas ini memiliki metode untuk mengatur isi larik, mengambil isi larik, dan menghitung jumlah elemen yang terisi dalam larik. Kelas ini digunakan untuk menyimpan berbagai tipe data, termasuk objek Anabul, dalam konteks larik generik.

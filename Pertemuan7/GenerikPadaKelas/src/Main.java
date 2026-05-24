@@ -1,9 +1,3 @@
-/* Nama File : Main.java
- * Deskripsi : 
- * Pembuat   : Muhammad Fahri
- * Tanggal   : 17 Mei 2026
- */
-
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : membuat kelas Main untuk menguji kelas Kucing, Anggora, KembangTelon, dan Datum dengan berbagai tipe data. Menampilkan informasi kucing dan menggunakan kelas generik Datum untuk menyimpan dan mengambil data.
