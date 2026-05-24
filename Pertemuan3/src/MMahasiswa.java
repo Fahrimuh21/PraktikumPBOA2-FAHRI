@@ -1,3 +1,9 @@
+/* Nama File : MMahasiswa.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 public class MMahasiswa {
     public static void main(String[] args) {
         // Membuat objek mata kuliah dan menginisialisasi dengan nilai yang diberikan

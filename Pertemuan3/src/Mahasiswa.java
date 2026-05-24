@@ -1,3 +1,9 @@
+/* Nama File : Mahasiswa.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 import java.util.ArrayList;
 
 public class Mahasiswa  {

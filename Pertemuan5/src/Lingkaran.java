@@ -1,7 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class Lingkaran dengan inherit BangunDatar dan implement IResize
-
+/* Nama File : Lingkaran.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class Lingkaran extends BangunDatar implements IResize {
     private double jari;

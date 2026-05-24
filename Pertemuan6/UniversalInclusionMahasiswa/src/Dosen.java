@@ -1,3 +1,9 @@
+/* Nama File : Dosen.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat class Dosen sebagai subclass dari Civitasakademika dengan atribut NIP.

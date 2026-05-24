@@ -1,32 +1,29 @@
-/*
- * Nama File  : Titik.java
- * Deskripsi  : berisi atribut dan method dalam class Titik
- * Pembuat    : Muhammad Fahri
- * Tanggal    : 23 Februari 2026
+/* Nama File : Titik.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
  */
 
 public class Titik {
 
-    /************** ATRIBUT **************/
-    double absis;
-    double ordinat;
-    static int counterTitik = 0;
+    /******************** ATRIBUT ********************/
+    double absis;          // koordinat X
+    double ordinat;        // koordinat Y
+    static int counterTitik = 0; // jumlah objek Titik yang dibuat
 
-    /************** KONSTRUKTOR **************/
+    /******************** METHOD ********************/
 
-    // Konstruktor default (0,0)
+    // Membuat objek Titik dengan koordinat default (0,0)
     Titik() {
         this(0,0);
     }
 
-    // Konstruktor dengan parameter
+    // Membuat objek Titik dengan koordinat tertentu
     Titik(double absis, double ordinat) {
         this.absis = absis;
         this.ordinat = ordinat;
         counterTitik++;
     }
-
-    /************** SELEKTOR **************/
 
     // Mengembalikan nilai absis
     double getAbsis() {
@@ -38,12 +35,10 @@ public class Titik {
         return ordinat;
     }
 
-    // Mengembalikan jumlah objek Titik
+    // Mengembalikan jumlah objek Titik yang dibuat
     static int getCounterTitik() {
         return counterTitik;
     }
-
-    /************** MUTATOR**************/
 
     // Mengubah nilai absis
     void setAbsis(double x) {
@@ -54,8 +49,6 @@ public class Titik {
     void setOrdinat(double y) {
         ordinat = y;
     }
-
-    /************** METHOD DASAR **************/
 
     // Menggeser titik sejauh (x,y)
     void geser(double x, double y) {
@@ -73,11 +66,8 @@ public class Titik {
         System.out.println(counterTitik);
     }
 
-    /************** METHOD BAGIAN 6 **************/
-
     // Menentukan kuadran titik
     int getKuadran() {
-
         if (absis > 0 && ordinat > 0)
             return 1;
         else if (absis < 0 && ordinat > 0)
@@ -88,26 +78,24 @@ public class Titik {
             return 4;
     }
 
-    // Menghitung jarak ke pusat (0,0)
+    // Menghitung jarak titik ke pusat (0,0)
     double getJarakPusat() {
         return Math.sqrt(absis*absis + ordinat*ordinat);
     }
 
     // Menghitung jarak ke titik lain
     double getJarak(Titik T) {
-
         double dx = absis - T.absis;
         double dy = ordinat - T.ordinat;
-
         return Math.sqrt(dx*dx + dy*dy);
     }
 
-    // Refleksi terhadap sumbu X
+    // Refleksi terhadap sumbu X (mengubah objek)
     void refleksiX() {
         ordinat = -ordinat;
     }
 
-    // Refleksi terhadap sumbu Y
+    // Refleksi terhadap sumbu Y (mengubah objek)
     void refleksiY() {
         absis = -absis;
     }

@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class Anabul sebagai kelas dasar untuk berbagai jenis hewan peliharaan (Anabul = Anak Bulan) dengan atribut nama dan method gerak serta bersuara. Kelas ini akan menjadi parent class untuk kelas
+/* Nama File : Anabul.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class Anabul {
     protected String nama;

@@ -1,12 +1,13 @@
-/*
- * Nama File  : MGaris.java
- * Deskripsi  : berisi program utama untuk menguji class Garis
+/* Nama File : MGaris.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
  */
 
 public class MGaris {
 
     /************** MAIN PROGRAM **************/
-
+    // Menjalankan program untuk menguji objek Garis
     public static void main(String[] args) {
 
         // Membuat titik
@@ -21,33 +22,23 @@ public class MGaris {
         Garis G3 = new Garis(); // konstruktor default
 
         /************** MENAMPILKAN DATA GARIS **************/
-
         G1.printGaris();
         System.out.println("Panjang G1 = " + G1.getPanjang());
         System.out.println("Gradien G1 = " + G1.getGradien());
 
         /************** TITIK TENGAH **************/
-
         Titik tengah = G1.getTitikTengah();
         System.out.print("Titik Tengah G1 = ");
         tengah.printTitik();
 
         /************** RELASI ANTAR GARIS **************/
-
-        System.out.println("G1 sejajar G2 = "
-                + G1.isSejajar(G2));
-
-        System.out.println("G1 tegak lurus G2 = "
-                + G1.isTegakLurus(G2));
+        System.out.println("G1 sejajar G2 = " + G1.isSejajar(G2));
+        System.out.println("G1 tegak lurus G2 = " + G1.isTegakLurus(G2));
 
         /************** PERSAMAAN GARIS **************/
-
-        System.out.println("Persamaan G1 : "
-                + G1.getPersamaanGaris());
+        System.out.println("Persamaan G1 : " + G1.getPersamaanGaris());
 
         /************** COUNTER **************/
-
-        System.out.println("Jumlah Objek Garis = "
-                + Garis.getCounterGaris());
+        System.out.println("Jumlah Objek Garis = " + Garis.getCounterGaris());
     }
 }

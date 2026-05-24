@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat interface Pajak untuk menghitung pajak yang harus dibayar oleh Pengusaha dan Pekerja
+/* Nama File : Pajak.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public interface Pajak {
 

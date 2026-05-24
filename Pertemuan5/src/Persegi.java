@@ -1,7 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class persegi dengan inherit BangunDatar
-
+/* Nama File : Persegi.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class Persegi extends BangunDatar implements IResize {
     //ATRIBUT

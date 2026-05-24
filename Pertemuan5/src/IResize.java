@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat interface IResize untuk mengubah ukuran bangun datar
+/* Nama File : IResize.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public interface IResize {
     //menambah ukuran sebesar 10%

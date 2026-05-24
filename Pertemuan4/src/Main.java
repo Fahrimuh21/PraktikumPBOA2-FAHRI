@@ -1,4 +1,16 @@
+/* Nama File : Main.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 public class Main {
+    /* 
+     * Method      : main(String[] args)
+     * Deskripsi   : Method main untuk menjalankan dan testing program
+     * Parameter   : args (String[])
+     * Return      : -
+     */
     public static void main(String[] args) {
         System.out.println("===== PERSEGI =====");
         Persegi persegi = new Persegi();

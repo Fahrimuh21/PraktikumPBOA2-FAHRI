@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class Main untuk menguji class Persegi dan Lingkaran
+/* Nama File : Main.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class Main {
     public static void main(String[] args) {

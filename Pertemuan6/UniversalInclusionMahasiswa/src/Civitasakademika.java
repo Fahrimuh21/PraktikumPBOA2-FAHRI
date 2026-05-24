@@ -1,3 +1,9 @@
+/* Nama File : Civitasakademika.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat class Civitasakademika sebagai kelas dasar untuk berbagai jenis civitas akademika dengan atribut nama dan method getNama serta getNomor. 

@@ -1,3 +1,9 @@
+/* Nama File : Anabul.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : membuat kelas Anabul yang memiliki atribut nama dan metode toString untuk menampilkan nama anabul. Kelas ini digunakan dalam konteks larik generik untuk menyimpan objek Anabul.

@@ -1,3 +1,9 @@
+/* Nama File : Main.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat class Main untuk menguji konsep polimorfisme universal inclusion dengan membuat array dari tipe Anabul yang berisi objek-objek dari kelas Kucing, Anjing, dan Burung. Kemudian,

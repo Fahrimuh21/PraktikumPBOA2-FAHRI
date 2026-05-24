@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class BangunDatar sebagai parent dari Persegi dan Lingkar
+/* Nama File : BangunDatar.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public abstract class BangunDatar {
     /*===== ATRIBUT ======*/

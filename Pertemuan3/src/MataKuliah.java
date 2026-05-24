@@ -1,3 +1,9 @@
+/* Nama File : MataKuliah.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 public class MataKuliah {
     //===== ATRIBUT =====//
     String idMatKul;

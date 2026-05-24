@@ -1,3 +1,9 @@
+/* Nama File : Seminar.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat class Seminar untuk mengelola peserta seminar yang terdiri dari berbagai jenis civitas akademika, seperti mahasiswa, dosen, dan tendik. Class ini memiliki atribut array untuk menyimpan peserta seminar dan metode untuk menghitung jumlah peserta, melakukan registrasi peserta, menampilkan daftar peserta, dan menghitung jumlah mahasiswa yang terdaftar dalam seminar. Met

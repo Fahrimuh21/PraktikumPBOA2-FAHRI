@@ -1,51 +1,100 @@
+/* Nama File : Dosen.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 public class Dosen {
-    //===== ATRIBUT =====//
+    /**********************ATRIBUT**********************/
+    /* Variabel untuk menyimpan nomor induk pegawai dosen */
     private String nip;
+    
+    /* Variabel untuk menyimpan nama dosen */
     private String nama;
+    
+    /* Variabel untuk menyimpan prodi yang diampu */
     private String prodi;
 
-    //====== METHOD =====//   
-
-    // Konstruktor tanpa parameter dan menginisialisasi atribut dengan nilai default
+    /* 
+     * Constructor: Dosen()
+     * Deskripsi   : Membuat object Dosen dengan nilai default
+     * Parameter   : -
+     * Return      : -
+     */
     public Dosen() {
         nip = "#";
         nama = "#";
         prodi = "#";
     }
 
-    // Konstruktor dengan parameter untuk menginisialisasi atribut dengan nilai yang diberikan
+    /* 
+     * Constructor: Dosen(String nip, String nama, String prodi)
+     * Deskripsi   : Membuat object Dosen dengan parameter yang diberikan
+     * Parameter   : nip (String), nama (String), prodi (String)
+     * Return      : -
+     */
     public Dosen(String nip, String nama, String prodi) {
         this.nip = nip;
         this.nama = nama;
         this.prodi = prodi;
     }
 
-    // mengembalikan nilai nip untuk dosen
+    /* 
+     * Method      : getNIP()
+     * Deskripsi   : Mengembalikan nilai NIP dosen
+     * Parameter   : -
+     * Return      : String (NIP dosen)
+     */
     String getNIP() {
         return nip;
     }
 
-    // mengembalikan nilai nama untuk dosen
+    /* 
+     * Method      : getNama()
+     * Deskripsi   : Mengembalikan nama dosen
+     * Parameter   : -
+     * Return      : String (nama dosen)
+     */
     String getNama() {
         return nama;
     }
 
-    // mengembalikan nilai prodi untuk dosen
+    /* 
+     * Method      : getProdi()
+     * Deskripsi   : Mengembalikan prodi yang diampu dosen
+     * Parameter   : -
+     * Return      : String (prodi)
+     */
     String getProdi() {
         return prodi;
     }
 
-    // mengeset nilai nip untuk dosen
+    /* 
+     * Method      : setNIP(String newNip)
+     * Deskripsi   : Mengeset nilai NIP dosen
+     * Parameter   : newNip (String)
+     * Return      : -
+     */
     public void setNIP(String newNip) {
         nip = newNip;
     }
 
-    // mengeset nilai nama untuk dosen
+    /* 
+     * Method      : setNama(String newNama)
+     * Deskripsi   : Mengeset nama dosen
+     * Parameter   : newNama (String)
+     * Return      : -
+     */
     public void setNama(String newNama) {
         nama = newNama;
     }
 
-    // mengeset nilai prodi untuk dosen
+    /* 
+     * Method      : setProdi(String newProdi)
+     * Deskripsi   : Mengeset prodi yang diampu dosen
+     * Parameter   : newProdi (String)
+     * Return      : -
+     */
     public void setProdi(String newProdi) {
         prodi = newProdi;
     }

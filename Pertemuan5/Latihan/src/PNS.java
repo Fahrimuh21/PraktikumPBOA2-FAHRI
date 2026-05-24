@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class PNS dengan inherit Manusia dan implement Pajak
+/* Nama File : PNS.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 import java.time.LocalDate;
 import java.time.Period;

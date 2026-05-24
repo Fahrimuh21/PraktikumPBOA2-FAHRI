@@ -1,38 +1,75 @@
+/* Nama File : Kendaraan.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 public class Kendaraan {
-    //===== ATRIBUT =====//
+    /**********************ATRIBUT**********************/
+    /* Variabel untuk menyimpan nomor plat kendaraan */
     private String noPlat;
+    
+    /* Variabel untuk menyimpan jenis kendaraan */
     private String jenis;
 
-    //===== METHOD =====//
-    
-    // Konstruktor tanpa parameter dan menginisialisasi atribut dengan nilai default
+    /* 
+     * Constructor: Kendaraan()
+     * Deskripsi   : Membuat object Kendaraan dengan nilai default
+     * Parameter   : -
+     * Return      : -
+     */
     Kendaraan() {
         noPlat = "#";
         jenis = "#";
     }
 
-    // Konstruktor dengan parameter dan menginisialisasi atribut dengan nilai yang diberikan
+    /* 
+     * Constructor: Kendaraan(String newNoPlat, String newJenis)
+     * Deskripsi   : Membuat object Kendaraan dengan parameter yang diberikan
+     * Parameter   : newNoPlat (String), newJenis (String)
+     * Return      : -
+     */
     Kendaraan(String newNoPlat, String newJenis) {
         noPlat = newNoPlat;
         jenis = newJenis;
     }
 
-    // Mengembalikan nilai noPlat untuk kendaraan
+    /* 
+     * Method      : getNoPlat()
+     * Deskripsi   : Mengembalikan nomor plat kendaraan
+     * Parameter   : -
+     * Return      : String (nomor plat)
+     */
     String getNoPlat() {
         return noPlat;
     }
 
-    // Mengembalikan nilai jenis untuk kendaraan
+    /* 
+     * Method      : getJenis()
+     * Deskripsi   : Mengembalikan jenis kendaraan
+     * Parameter   : -
+     * Return      : String (jenis kendaraan)
+     */
     String getJenis() {
         return jenis;
     }
 
-    // Mengatur nilai noPlat untuk kendaraan
+    /* 
+     * Method      : setNoPlat(String newNoPlat)
+     * Deskripsi   : Mengeset nomor plat kendaraan
+     * Parameter   : newNoPlat (String)
+     * Return      : -
+     */
     public void setNoPlat(String newNoPlat) {
         noPlat = newNoPlat;
     }
 
-    // Mengatur nilai jenis untuk kendaraan
+    /* 
+     * Method      : setJenis(String newJenis)
+     * Deskripsi   : Mengeset jenis kendaraan
+     * Parameter   : newJenis (String)
+     * Return      : -
+     */
     public void setJenis(String newJenis) {
         jenis = newJenis;
     }

@@ -1,3 +1,9 @@
+/* Nama File : Mahasiswa.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
+
 //Nama : Muhammad Fahri
 //NIM : 24060124120037
 //Deskripsi : Membuat class Mahasiswa sebagai subclass dari Civitasakademika dengan atribut NIM dan dosen wali. Class ini memiliki method untuk mengatur dosen wali dan menampilkan data mahasiswa, termasuk NIM, nama, dan nama dosen wali. Method getNomor di override untuk mengembalikan NIM sebagai nomor identitas mahasiswa.

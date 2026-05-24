@@ -1,6 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat class Anjing sebagai subclass dari Anabul dengan mengoverride method gerak dan bersuara untuk memberikan perilaku yang spesifik pada anjing. Method gerak akan menampilkan bahwa anjing bergerak dengan melata, sedangkan method bersuara akan menampilkan bahwa anjing berbunyi guk-guk.
+/* Nama File : Anjing.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class Anjing extends Anabul {
 

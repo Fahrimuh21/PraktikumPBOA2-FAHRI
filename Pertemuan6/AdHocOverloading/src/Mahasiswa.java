@@ -1,7 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat dan belajar tentang polimorfisme adhoc overloading pada class Mahasiswa dengan atribut NIM, Nama, dan Program Studi. 
-// Terdapat 3 konstruktor dan 3 method setProgramStudi yang berbeda parameter. Juga terdapat method tampil untuk menampilkan informasi mahasiswa.
+/* Nama File : Mahasiswa.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class Mahasiswa {
     private String NIM;

@@ -1,7 +1,8 @@
-//Nama : Muhammad Fahri
-//NIM : 24060124120037
-//Deskripsi : Membuat dan belajar tentang konversi tipe data dan parsing
-
+/* Nama File : KonversiDanPolimorfisme.java
+ * Deskripsi : 
+ * Pembuat   : Muhammad Fahri
+ * Tanggal   : 17 Mei 2026
+ */
 
 public class KonversiDanPolimorfisme {
     public static void main(String[] args) {
